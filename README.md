@@ -7,6 +7,7 @@ Periyasamy Govindaraj#, Sheikh Nizamuddin# et al. Genome-wide analysis correlate
 REQUIREMENTS:
   
      Perl, Beagle
+     Unix/Linux OS
      
 INSTALLATION and COMMANDS:
 
