@@ -2,6 +2,8 @@
 
 This script is used to check imputation accuracy with different ancestral population as reference and purely for our Indian population samples with 207 individuals and 9624 SNPs. To run this script you should have Perl, Beagle and necessary input files (test/*bgl files).
 
+Periyasamy Govindaraj#, Sheikh Nizamuddin# et al. Genome-wide analysis correlates Ayurveda Prakriti. 2015, Sci. Rep. 5, 15786. (# equal contribution)
+
 REQUIREMENTS:
   
      Perl, Beagle
