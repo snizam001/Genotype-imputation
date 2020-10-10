@@ -18,15 +18,17 @@ INSTALLATION and COMMANDS:
     mv test/* . 
     rm -r test
     
-    3. Now u have everything to run the simulation with following command:
-    perl simulate.pl percentage number_of_permutation directory without_family.bgl
+    3. Now u have everything to run the simulation with following command (in this step tools will automatically mask random genotype and imputation will be performed using Beagle tool; further concordance between masked and imputated genotype will be calculated):
+    perl concordance.pl percentage number_of_permutation directory without_family.bgl
                  percentage: how much percentage, u want to masked.
                  number_of_permutation: how many times, u want to do simulation
                  directory: this is same directory where u have kept all *bgl files (Please give full path)
 
               example1: if you want to mask 2% genotype and perform 100 times simulation, u have to give following command:
 
-              perl simulate.pl 2 100 /Users/username/Desktop/directory/ without_family.bgl
+              perl concordance.pl 2 100 /Users/username/Desktop/directory/ without_family.bgl
+              
+     
 
 
 
